@@ -11,7 +11,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 
 //let handle cors
 var corsOptions = {
-  origin: ["http://localhost:5173", "https://merninflex.onrender.com"],
+  origin: ["http://localhost:5173", "https://inflex-seven.vercel.app"],
   method: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
